@@ -1,0 +1,29 @@
+{
+  "name": "@activityconnection/printapi-sdk",
+  "version": "1.0.0",
+  "description": "JavaScript SDK for the Activity Connection Commercial Print API (printapi.net)",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --test ./test/PrintApiClient.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Activity-Connection/PrintAPI-SDK.git"
+  },
+  "keywords": [
+    "print",
+    "api",
+    "sdk",
+    "commercial-print",
+    "activity-connection"
+  ],
+  "author": "Activity Connection",
+  "license": "Apache-2.0"
+}
